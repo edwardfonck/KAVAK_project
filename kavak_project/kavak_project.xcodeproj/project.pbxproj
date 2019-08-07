@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F56461E22F8D2800060E312 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F56461D22F8D2800060E312 /* ArrayExtensions.swift */; };
+		7F56462122F8DD380060E312 /* ProfessionCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F56462022F8DD380060E312 /* ProfessionCVC.swift */; };
+		7F56462622F92B6B0060E312 /* ListGnomesByProfessionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F56462522F92B6B0060E312 /* ListGnomesByProfessionVC.swift */; };
+		7F56462922F92DBF0060E312 /* GnomeCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F56462722F92DBF0060E312 /* GnomeCVC.swift */; };
+		7F56462A22F92DBF0060E312 /* GnomeCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F56462822F92DBF0060E312 /* GnomeCVC.xib */; };
+		7F56462E22F932A30060E312 /* UIImageCacheExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F56462D22F932A30060E312 /* UIImageCacheExtension.swift */; };
+		7F56463522F9CFF60060E312 /* MXParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F56463322F9CFF60060E312 /* MXParallaxHeader.m */; };
+		7F56463B22F9D2070060E312 /* GnomeDetailVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F56463A22F9D2070060E312 /* GnomeDetailVCViewController.swift */; };
+		7F56464022F9D7930060E312 /* ProfessionHeaderCRV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F56463E22F9D7930060E312 /* ProfessionHeaderCRV.swift */; };
+		7F56464122F9D7930060E312 /* ProfessionHeaderCRV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F56463F22F9D7930060E312 /* ProfessionHeaderCRV.xib */; };
+		7F56464322F9F23A0060E312 /* GnomeDetailTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F56464222F9F23A0060E312 /* GnomeDetailTVC.swift */; };
+		7F9BCADE22F7D22F00928BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9BCADD22F7D22F00928BCC /* AppDelegate.swift */; };
+		7F9BCAE022F7D22F00928BCC /* ProfessionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9BCADF22F7D22F00928BCC /* ProfessionsVC.swift */; };
+		7F9BCAE322F7D22F00928BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F9BCAE122F7D22F00928BCC /* Main.storyboard */; };
+		7F9BCAE522F7D23E00928BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F9BCAE422F7D23E00928BCC /* Assets.xcassets */; };
+		7F9BCAE822F7D23E00928BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F9BCAE622F7D23E00928BCC /* LaunchScreen.storyboard */; };
+		7F9BCAF322F7D23E00928BCC /* kavak_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9BCAF222F7D23E00928BCC /* kavak_projectTests.swift */; };
+		7F9BCAFE22F7D23E00928BCC /* kavak_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9BCAFD22F7D23E00928BCC /* kavak_projectUITests.swift */; };
+		7FD612A522F8641D00931D98 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD612A422F8641D00931D98 /* Services.swift */; };
+		7FD612A722F8643A00931D98 /* GnomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD612A622F8643A00931D98 /* GnomeModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F9BCAEF22F7D23E00928BCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9BCAD222F7D22E00928BCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F9BCAD922F7D22E00928BCC;
+			remoteInfo = kavak_project;
+		};
+		7F9BCAFA22F7D23E00928BCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9BCAD222F7D22E00928BCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F9BCAD922F7D22E00928BCC;
+			remoteInfo = kavak_project;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F56461D22F8D2800060E312 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		7F56462022F8DD380060E312 /* ProfessionCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionCVC.swift; sourceTree = "<group>"; };
+		7F56462522F92B6B0060E312 /* ListGnomesByProfessionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListGnomesByProfessionVC.swift; sourceTree = "<group>"; };
+		7F56462722F92DBF0060E312 /* GnomeCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeCVC.swift; sourceTree = "<group>"; };
+		7F56462822F92DBF0060E312 /* GnomeCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GnomeCVC.xib; sourceTree = "<group>"; };
+		7F56462D22F932A30060E312 /* UIImageCacheExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageCacheExtension.swift; sourceTree = "<group>"; };
+		7F56463322F9CFF60060E312 /* MXParallaxHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXParallaxHeader.m; sourceTree = "<group>"; };
+		7F56463422F9CFF60060E312 /* MXParallaxHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXParallaxHeader.h; sourceTree = "<group>"; };
+		7F56463922F9D14B0060E312 /* Kavak_project-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kavak_project-Bridging-Header.h"; sourceTree = "<group>"; };
+		7F56463A22F9D2070060E312 /* GnomeDetailVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeDetailVCViewController.swift; sourceTree = "<group>"; };
+		7F56463E22F9D7930060E312 /* ProfessionHeaderCRV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionHeaderCRV.swift; sourceTree = "<group>"; };
+		7F56463F22F9D7930060E312 /* ProfessionHeaderCRV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfessionHeaderCRV.xib; sourceTree = "<group>"; };
+		7F56464222F9F23A0060E312 /* GnomeDetailTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeDetailTVC.swift; sourceTree = "<group>"; };
+		7F9BCADA22F7D22E00928BCC /* kavak_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kavak_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9BCADD22F7D22F00928BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F9BCADF22F7D22F00928BCC /* ProfessionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionsVC.swift; sourceTree = "<group>"; };
+		7F9BCAE222F7D22F00928BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F9BCAE422F7D23E00928BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F9BCAE722F7D23E00928BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F9BCAE922F7D23E00928BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F9BCAEE22F7D23E00928BCC /* kavak_projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kavak_projectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9BCAF222F7D23E00928BCC /* kavak_projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kavak_projectTests.swift; sourceTree = "<group>"; };
+		7F9BCAF422F7D23E00928BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F9BCAF922F7D23E00928BCC /* kavak_projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kavak_projectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9BCAFD22F7D23E00928BCC /* kavak_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kavak_projectUITests.swift; sourceTree = "<group>"; };
+		7F9BCAFF22F7D23E00928BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD612A422F8641D00931D98 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		7FD612A622F8643A00931D98 /* GnomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F9BCAD722F7D22E00928BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9BCAEB22F7D23E00928BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9BCAF622F7D23E00928BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F56461F22F8DD020060E312 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				7F56462222F8DD3F0060E312 /* Cells */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		7F56462222F8DD3F0060E312 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7F56462022F8DD380060E312 /* ProfessionCVC.swift */,
+				7F56463E22F9D7930060E312 /* ProfessionHeaderCRV.swift */,
+				7F56463F22F9D7930060E312 /* ProfessionHeaderCRV.xib */,
+				7F56462722F92DBF0060E312 /* GnomeCVC.swift */,
+				7F56462822F92DBF0060E312 /* GnomeCVC.xib */,
+				7F56464222F9F23A0060E312 /* GnomeDetailTVC.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7F56462C22F932560060E312 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7F56461D22F8D2800060E312 /* ArrayExtensions.swift */,
+				7F56462D22F932A30060E312 /* UIImageCacheExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7F56463122F9CF0D0060E312 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				7F56463222F9CFF60060E312 /* ParallaxHeader */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		7F56463222F9CFF60060E312 /* ParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				7F56463422F9CFF60060E312 /* MXParallaxHeader.h */,
+				7F56463322F9CFF60060E312 /* MXParallaxHeader.m */,
+			);
+			path = ParallaxHeader;
+			sourceTree = "<group>";
+		};
+		7F9BCAD122F7D22E00928BCC = {
+			isa = PBXGroup;
+			children = (
+				7F9BCADC22F7D22E00928BCC /* kavak_project */,
+				7F9BCAF122F7D23E00928BCC /* kavak_projectTests */,
+				7F9BCAFC22F7D23E00928BCC /* kavak_projectUITests */,
+				7F9BCADB22F7D22E00928BCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F9BCADB22F7D22E00928BCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F9BCADA22F7D22E00928BCC /* kavak_project.app */,
+				7F9BCAEE22F7D23E00928BCC /* kavak_projectTests.xctest */,
+				7F9BCAF922F7D23E00928BCC /* kavak_projectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F9BCADC22F7D22E00928BCC /* kavak_project */ = {
+			isa = PBXGroup;
+			children = (
+				7F56463122F9CF0D0060E312 /* Framework */,
+				7F56462C22F932560060E312 /* Extensions */,
+				7F9BCB0E22F7D2B200928BCC /* Model */,
+				7F9BCB0D22F7D2A600928BCC /* Storyboard */,
+				7F9BCB0C22F7D29800928BCC /* Controllers */,
+				7F9BCB0B22F7D28700928BCC /* Services */,
+				7F9BCADD22F7D22F00928BCC /* AppDelegate.swift */,
+				7F9BCAE422F7D23E00928BCC /* Assets.xcassets */,
+				7F9BCAE622F7D23E00928BCC /* LaunchScreen.storyboard */,
+				7F9BCAE922F7D23E00928BCC /* Info.plist */,
+				7F56463922F9D14B0060E312 /* Kavak_project-Bridging-Header.h */,
+			);
+			path = kavak_project;
+			sourceTree = "<group>";
+		};
+		7F9BCAF122F7D23E00928BCC /* kavak_projectTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F9BCAF222F7D23E00928BCC /* kavak_projectTests.swift */,
+				7F9BCAF422F7D23E00928BCC /* Info.plist */,
+			);
+			path = kavak_projectTests;
+			sourceTree = "<group>";
+		};
+		7F9BCAFC22F7D23E00928BCC /* kavak_projectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F9BCAFD22F7D23E00928BCC /* kavak_projectUITests.swift */,
+				7F9BCAFF22F7D23E00928BCC /* Info.plist */,
+			);
+			path = kavak_projectUITests;
+			sourceTree = "<group>";
+		};
+		7F9BCB0B22F7D28700928BCC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7FD612A422F8641D00931D98 /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7F9BCB0C22F7D29800928BCC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F56461F22F8DD020060E312 /* views */,
+				7F9BCADF22F7D22F00928BCC /* ProfessionsVC.swift */,
+				7F56462522F92B6B0060E312 /* ListGnomesByProfessionVC.swift */,
+				7F56463A22F9D2070060E312 /* GnomeDetailVCViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7F9BCB0D22F7D2A600928BCC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7F9BCAE122F7D22F00928BCC /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		7F9BCB0E22F7D2B200928BCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FD612A622F8643A00931D98 /* GnomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F9BCAD922F7D22E00928BCC /* kavak_project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9BCB0222F7D23E00928BCC /* Build configuration list for PBXNativeTarget "kavak_project" */;
+			buildPhases = (
+				7F9BCAD622F7D22E00928BCC /* Sources */,
+				7F9BCAD722F7D22E00928BCC /* Frameworks */,
+				7F9BCAD822F7D22E00928BCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kavak_project;
+			productName = kavak_project;
+			productReference = 7F9BCADA22F7D22E00928BCC /* kavak_project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F9BCAED22F7D23E00928BCC /* kavak_projectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9BCB0522F7D23E00928BCC /* Build configuration list for PBXNativeTarget "kavak_projectTests" */;
+			buildPhases = (
+				7F9BCAEA22F7D23E00928BCC /* Sources */,
+				7F9BCAEB22F7D23E00928BCC /* Frameworks */,
+				7F9BCAEC22F7D23E00928BCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F9BCAF022F7D23E00928BCC /* PBXTargetDependency */,
+			);
+			name = kavak_projectTests;
+			productName = kavak_projectTests;
+			productReference = 7F9BCAEE22F7D23E00928BCC /* kavak_projectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F9BCAF822F7D23E00928BCC /* kavak_projectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9BCB0822F7D23E00928BCC /* Build configuration list for PBXNativeTarget "kavak_projectUITests" */;
+			buildPhases = (
+				7F9BCAF522F7D23E00928BCC /* Sources */,
+				7F9BCAF622F7D23E00928BCC /* Frameworks */,
+				7F9BCAF722F7D23E00928BCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F9BCAFB22F7D23E00928BCC /* PBXTargetDependency */,
+			);
+			name = kavak_projectUITests;
+			productName = kavak_projectUITests;
+			productReference = 7F9BCAF922F7D23E00928BCC /* kavak_projectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F9BCAD222F7D22E00928BCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Eduardo Fonseca";
+				TargetAttributes = {
+					7F9BCAD922F7D22E00928BCC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7F9BCAED22F7D23E00928BCC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7F9BCAD922F7D22E00928BCC;
+					};
+					7F9BCAF822F7D23E00928BCC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7F9BCAD922F7D22E00928BCC;
+					};
+				};
+			};
+			buildConfigurationList = 7F9BCAD522F7D22E00928BCC /* Build configuration list for PBXProject "kavak_project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F9BCAD122F7D22E00928BCC;
+			productRefGroup = 7F9BCADB22F7D22E00928BCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F9BCAD922F7D22E00928BCC /* kavak_project */,
+				7F9BCAED22F7D23E00928BCC /* kavak_projectTests */,
+				7F9BCAF822F7D23E00928BCC /* kavak_projectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F9BCAD822F7D22E00928BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9BCAE822F7D23E00928BCC /* LaunchScreen.storyboard in Resources */,
+				7F9BCAE522F7D23E00928BCC /* Assets.xcassets in Resources */,
+				7F9BCAE322F7D22F00928BCC /* Main.storyboard in Resources */,
+				7F56462A22F92DBF0060E312 /* GnomeCVC.xib in Resources */,
+				7F56464122F9D7930060E312 /* ProfessionHeaderCRV.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9BCAEC22F7D23E00928BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9BCAF722F7D23E00928BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F9BCAD622F7D22E00928BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F56462E22F932A30060E312 /* UIImageCacheExtension.swift in Sources */,
+				7F56462922F92DBF0060E312 /* GnomeCVC.swift in Sources */,
+				7F9BCAE022F7D22F00928BCC /* ProfessionsVC.swift in Sources */,
+				7F56461E22F8D2800060E312 /* ArrayExtensions.swift in Sources */,
+				7F56464322F9F23A0060E312 /* GnomeDetailTVC.swift in Sources */,
+				7F56462122F8DD380060E312 /* ProfessionCVC.swift in Sources */,
+				7FD612A522F8641D00931D98 /* Services.swift in Sources */,
+				7F56462622F92B6B0060E312 /* ListGnomesByProfessionVC.swift in Sources */,
+				7FD612A722F8643A00931D98 /* GnomeModel.swift in Sources */,
+				7F56464022F9D7930060E312 /* ProfessionHeaderCRV.swift in Sources */,
+				7F56463522F9CFF60060E312 /* MXParallaxHeader.m in Sources */,
+				7F9BCADE22F7D22F00928BCC /* AppDelegate.swift in Sources */,
+				7F56463B22F9D2070060E312 /* GnomeDetailVCViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9BCAEA22F7D23E00928BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9BCAF322F7D23E00928BCC /* kavak_projectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9BCAF522F7D23E00928BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9BCAFE22F7D23E00928BCC /* kavak_projectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F9BCAF022F7D23E00928BCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F9BCAD922F7D22E00928BCC /* kavak_project */;
+			targetProxy = 7F9BCAEF22F7D23E00928BCC /* PBXContainerItemProxy */;
+		};
+		7F9BCAFB22F7D23E00928BCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F9BCAD922F7D22E00928BCC /* kavak_project */;
+			targetProxy = 7F9BCAFA22F7D23E00928BCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F9BCAE122F7D22F00928BCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F9BCAE222F7D22F00928BCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F9BCAE622F7D23E00928BCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F9BCAE722F7D23E00928BCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F9BCB0022F7D23E00928BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F9BCB0122F7D23E00928BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F9BCB0322F7D23E00928BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY8YJFVATX;
+				INFOPLIST_FILE = kavak_project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samples.kavak-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/EdwardFonck/Library/Autosave Information/kavak_project/kavak_project/Kavak_project-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F9BCB0422F7D23E00928BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY8YJFVATX;
+				INFOPLIST_FILE = kavak_project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samples.kavak-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/EdwardFonck/Library/Autosave Information/kavak_project/kavak_project/Kavak_project-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F9BCB0622F7D23E00928BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY8YJFVATX;
+				INFOPLIST_FILE = kavak_projectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samples.kavak-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kavak_project.app/kavak_project";
+			};
+			name = Debug;
+		};
+		7F9BCB0722F7D23E00928BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY8YJFVATX;
+				INFOPLIST_FILE = kavak_projectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samples.kavak-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kavak_project.app/kavak_project";
+			};
+			name = Release;
+		};
+		7F9BCB0922F7D23E00928BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY8YJFVATX;
+				INFOPLIST_FILE = kavak_projectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samples.kavak-projectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kavak_project;
+			};
+			name = Debug;
+		};
+		7F9BCB0A22F7D23E00928BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY8YJFVATX;
+				INFOPLIST_FILE = kavak_projectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samples.kavak-projectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kavak_project;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F9BCAD522F7D22E00928BCC /* Build configuration list for PBXProject "kavak_project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9BCB0022F7D23E00928BCC /* Debug */,
+				7F9BCB0122F7D23E00928BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9BCB0222F7D23E00928BCC /* Build configuration list for PBXNativeTarget "kavak_project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9BCB0322F7D23E00928BCC /* Debug */,
+				7F9BCB0422F7D23E00928BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9BCB0522F7D23E00928BCC /* Build configuration list for PBXNativeTarget "kavak_projectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9BCB0622F7D23E00928BCC /* Debug */,
+				7F9BCB0722F7D23E00928BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9BCB0822F7D23E00928BCC /* Build configuration list for PBXNativeTarget "kavak_projectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9BCB0922F7D23E00928BCC /* Debug */,
+				7F9BCB0A22F7D23E00928BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F9BCAD222F7D22E00928BCC /* Project object */;
+}
